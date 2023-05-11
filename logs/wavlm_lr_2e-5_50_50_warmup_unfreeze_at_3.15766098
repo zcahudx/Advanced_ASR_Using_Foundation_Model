@@ -1,0 +1,160 @@
+Namespace(seed=123, train_json='data/train_10h.json', val_json='data/devsubset.json', test_clean_json='data/test_clean.json', test_other_json='data/test_other.json', batch_size=4, num_layers=1, fbank_dims=23, model_dims=128, concat=3, lr=2e-05, vocab='data/vocab.txt', use_fbank=False, model='wavlm', report_interval=50, num_epochs=10)
+Total number of model parameters is 94405006
+EPOCH 1:
+  batch 50 loss: 8.80308723449707
+  batch 100 loss: 8.81466326713562
+  batch 150 loss: 8.76484175682068
+  batch 200 loss: 8.752494773864747
+  batch 250 loss: 8.88989888191223
+  batch 300 loss: 8.916871480941772
+  batch 350 loss: 8.675386486053467
+  batch 400 loss: 8.854010763168334
+  batch 450 loss: 8.551420459747314
+  batch 500 loss: 8.354002170562744
+  batch 550 loss: 8.485714149475097
+  batch 600 loss: 8.327907638549805
+  batch 650 loss: 7.984900674819946
+LOSS train 7.98490 valid 8.47968, valid WER 101.40%
+EPOCH 2:
+  batch 50 loss: 7.843990716934204
+  batch 100 loss: 7.846635789871216
+  batch 150 loss: 7.562971572875977
+  batch 200 loss: 7.450578746795654
+  batch 250 loss: 7.141359519958496
+  batch 300 loss: 7.201258306503296
+  batch 350 loss: 6.927378530502319
+  batch 400 loss: 6.747097425460815
+  batch 450 loss: 6.593125190734863
+  batch 500 loss: 6.716834774017334
+  batch 550 loss: 6.5134467506408695
+  batch 600 loss: 6.330967016220093
+  batch 650 loss: 6.372535905838013
+LOSS train 6.37254 valid 6.24798, valid WER 98.93%
+EPOCH 3:
+  batch 50 loss: 5.928329010009765
+  batch 100 loss: 5.743696947097778
+  batch 150 loss: 5.593299741744995
+  batch 200 loss: 5.487151870727539
+  batch 250 loss: 5.37703013420105
+  batch 300 loss: 5.1649497127532955
+  batch 350 loss: 5.362965908050537
+  batch 400 loss: 5.138812913894653
+  batch 450 loss: 4.90247350692749
+  batch 500 loss: 4.87219651222229
+  batch 550 loss: 5.110148010253906
+  batch 600 loss: 4.787973818778991
+  batch 650 loss: 4.502631592750549
+LOSS train 4.50263 valid 4.58138, valid WER 99.51%
+EPOCH 4:
+  batch 50 loss: 3.4531780672073364
+  batch 100 loss: 3.1224719524383544
+  batch 150 loss: 2.9070496225357054
+  batch 200 loss: 2.917752256393433
+  batch 250 loss: 2.8872815132141114
+  batch 300 loss: 2.884166955947876
+  batch 350 loss: 2.859564528465271
+  batch 400 loss: 2.85911452293396
+  batch 450 loss: 2.8618099308013916
+  batch 500 loss: 2.8708085346221925
+  batch 550 loss: 2.823615689277649
+  batch 600 loss: 2.7509061765670775
+  batch 650 loss: 2.6447961473464967
+LOSS train 2.64480 valid 2.38343, valid WER 99.94%
+EPOCH 5:
+  batch 50 loss: 2.338961796760559
+  batch 100 loss: 2.1801401782035827
+  batch 150 loss: 1.9638911390304565
+  batch 200 loss: 1.754357407093048
+  batch 250 loss: 1.5888390684127807
+  batch 300 loss: 1.550164041519165
+  batch 350 loss: 1.455657045841217
+  batch 400 loss: 1.2743337988853454
+  batch 450 loss: 1.2422021126747131
+  batch 500 loss: 1.0839028656482697
+  batch 550 loss: 1.0478122770786285
+  batch 600 loss: 1.088210393190384
+  batch 650 loss: 0.9560764598846435
+LOSS train 0.95608 valid 0.92328, valid WER 64.90%
+EPOCH 6:
+  batch 50 loss: 0.8828586125373841
+  batch 100 loss: 0.8872232282161713
+  batch 150 loss: 0.8669451069831848
+  batch 200 loss: 0.74484020113945
+  batch 250 loss: 0.8624067747592926
+  batch 300 loss: 0.8446864324808121
+  batch 350 loss: 0.7239220869541169
+  batch 400 loss: 0.7301464015245438
+  batch 450 loss: 0.7074088203907013
+  batch 500 loss: 0.7109803998470307
+  batch 550 loss: 0.771363775730133
+  batch 600 loss: 0.7035556071996689
+  batch 650 loss: 0.6891190880537033
+LOSS train 0.68912 valid 0.66621, valid WER 49.05%
+EPOCH 7:
+  batch 50 loss: 0.6883100706338883
+  batch 100 loss: 0.6820752936601638
+  batch 150 loss: 0.5762110644578934
+  batch 200 loss: 0.5997430443763733
+  batch 250 loss: 0.6133955454826355
+  batch 300 loss: 0.5458203995227814
+  batch 350 loss: 0.5886499452590942
+  batch 400 loss: 0.5897914832830429
+  batch 450 loss: 0.5647649163007736
+  batch 500 loss: 0.4877548682689667
+  batch 550 loss: 0.48013462364673615
+  batch 600 loss: 0.5465331131219864
+  batch 650 loss: 0.4736212879419327
+LOSS train 0.47362 valid 0.55943, valid WER 42.35%
+EPOCH 8:
+  batch 50 loss: 0.46765359461307526
+  batch 100 loss: 0.44165838688611986
+  batch 150 loss: 0.543145877122879
+  batch 200 loss: 0.5004147017002105
+  batch 250 loss: 0.49798197627067564
+  batch 300 loss: 0.47172313153743745
+  batch 350 loss: 0.4180772602558136
+  batch 400 loss: 0.5166562896966934
+  batch 450 loss: 0.4419586578011513
+  batch 500 loss: 0.4774579852819443
+  batch 550 loss: 0.411374945640564
+  batch 600 loss: 0.47953061401844027
+  batch 650 loss: 0.40879812926054
+LOSS train 0.40880 valid 0.52193, valid WER 39.39%
+EPOCH 9:
+  batch 50 loss: 0.3965900897979736
+  batch 100 loss: 0.3712122389674187
+  batch 150 loss: 0.5032804763317108
+  batch 200 loss: 0.45284694820642474
+  batch 250 loss: 0.3963893365859985
+  batch 300 loss: 0.4798922088742256
+  batch 350 loss: 0.4801826894283295
+  batch 400 loss: 0.43238927870988847
+  batch 450 loss: 0.3895725607872009
+  batch 500 loss: 0.407904879450798
+  batch 550 loss: 0.4496754002571106
+  batch 600 loss: 0.4596275380253792
+  batch 650 loss: 0.40767079502344133
+LOSS train 0.40767 valid 0.48857, valid WER 36.56%
+EPOCH 10:
+  batch 50 loss: 0.5115188851952552
+  batch 100 loss: 0.4766514578461647
+  batch 150 loss: 0.38948568552732465
+  batch 200 loss: 0.4341041773557663
+  batch 250 loss: 0.5009311798214913
+  batch 300 loss: 0.35709203690290453
+  batch 350 loss: 0.406999009847641
+  batch 400 loss: 0.43661599308252336
+  batch 450 loss: 0.39641674667596816
+  batch 500 loss: 0.3462772253155708
+  batch 550 loss: 0.4166108465194702
+  batch 600 loss: 0.4636502704024315
+  batch 650 loss: 0.44588384658098223
+LOSS train 0.44588 valid 0.48271, valid WER 36.40%
+Training finished in 22.0 minutes.
+Total number of unfreezed  model parameters is 89809550
+Model saved to checkpoints/20230308_233734/model_10
+Loading model from checkpoints/20230308_233734/model_10
+Results for test_clean:
+SUB: 28.88%, DEL: 1.39%, INS: 1.38%, COR: 69.73%, WER: 31.66%
+Results for test_other:
+SUB: 36.55%, DEL: 2.97%, INS: 1.98%, COR: 60.48%, WER: 41.51%
