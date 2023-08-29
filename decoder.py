@@ -4,6 +4,7 @@ import torch
 from dataloader import get_dataloader, get_dataloader_wav
 from utils import concat_inputs
 
+# Greedy decoding only
 def decode(model, args, json_file, char=False):
     idx2grapheme = {y: x for x, y in args.vocab.items()}
     if args.use_fbank:
